@@ -1,0 +1,31 @@
+
+.main{
+    background-color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-cima{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer-baixo{
+    /* background-color: aqua; */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.tres{
+    width: 33%;
+    padding: 10px;
+
+    /* background-color: brown; */
+}

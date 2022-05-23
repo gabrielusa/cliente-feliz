@@ -1,6 +1,8 @@
+import './Produto.css';
+
 function Produto() {
     return (
-      <div >
+      <div className="produto" >
         Produto-Page
       </div>
     );

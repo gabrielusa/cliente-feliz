@@ -1,4 +1,7 @@
 import './Header.css';
+import React from 'react'
+
+import logo from './logo-cliente-feliz.png'
 
 
 function Header() {
@@ -8,12 +11,15 @@ function Header() {
           <b>Parabéns!</b> Você ganhou frete grátis para o seu pedido!
         </div>
 
-        <div>
-          logo
-          Inicio
-          Rastreio
-          Ofertas
+        <div  className='tab' >
+        <img alt="logo cliente feliz" src={logo} width='130px' className='img-logo'/>
+          <div className='center-top'>
+            Inicio
+            Rastreio
+            Ofertas
+          </div>
         </div>
+
       </div>
     );
   }

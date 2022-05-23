@@ -7,6 +7,7 @@ import Footer from './footer/Footer';
 import Home from './pages/Home/Home';
 import Produto from './pages/Produto/Produto';
 
+import '../src/css/reset.css';
 
 function App() {
   return (
