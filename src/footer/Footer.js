@@ -23,7 +23,7 @@ function Footer() {
                   document.querySelector('.subtext3-tres').style.display = 'none';
                 }
                 }}>
-                Links Úteis.
+                Links Úteis
             </p>
           </div>
 
@@ -49,38 +49,40 @@ function Footer() {
                       document.querySelector('.subtext2-tres').style.display = 'none';
               }
                 }}>
-              Receba presentes por E-mail.
+              Receba presentes por email
             </p>          
           </div>
        </div>
+       
+        <ul className='subtext1-tres'>
+                <li><a href='./' className='redirect'>Entre em Contato</a></li>
+                <li><a href='./' className='redirect'>Rastreamento de Pedidos</a></li>
+                <li><a href='./' className='redirect'>Trocas e Devoluções</a></li>
+                <li><a href='./' className='redirect'>Envio e Prazo de Entrega</a></li>
+                <li><a href='./' className='redirect'>Política de Privacidade</a></li>
+                <li><a href='./' className='redirect'>Quem Somos</a></li>
+                <li><a href='./' className='redirect'>Contate um especialista por WhatsApp</a></li>
+                <li><a href='./' className='redirect'>Contate um especialista por Email</a></li>
+                <li><a href='./' className='redirect'>Dúvidas Frequentes</a></li>
+        </ul>
 
-      <ul className='subtext1-tres'>
-              <li><a href='./' className='redirect'>Entre em Contato</a></li>
-              <li><a href='./' className='redirect'>Rastreamento de Pedidos</a></li>
-              <li><a href='./' className='redirect'>Trocas e Devoluções</a></li>
-              <li><a href='./' className='redirect'>Envio e Prazo de Entrega</a></li>
-              <li><a href='./' className='redirect'>Política de Privacidade</a></li>
-              <li><a href='./' className='redirect'>Quem Somos</a></li>
-              <li><a href='./' className='redirect'>Contate um especialista por WhatsApp</a></li>
-              <li><a href='./' className='redirect'>Contate um especialista por Email</a></li>
-              <li><a href='./' className='redirect'>Dúvidas Frequentes</a></li>
-      </ul>
+        <div className='subtext2-tres'>
+          <p >A nossa maior preocupação é com a sua satisfação.</p>
+          <p >Entre em contato caso tenha alguma dúvida a respeito de nossos serviços ou interaja com nossas redes sociais.</p>
+          <p >Queremos você feliz, sempre.</p>
+        </div>
 
-      <div className='subtext2-tres'>
-        <p >A nossa maior preocupação é com a sua satisfação.</p>
-        <p >Entre em contato caso tenha alguma dúvida a respeito de nossos serviços ou interaja com nossas redes sociais.</p>
-        <p >Queremos você feliz, sempre.</p>
-      </div>
-
-      <div className='subtext3-tres'>
-        <p>Digite o seu melhor e-mail e aguarde a surpresa que temos para você</p>
-        <p>confira também a sua caixa de spam caso não receba nada.</p>
-      </div>
+        
+        <div className='subtext3-tres'>
+          <p>Digite o seu melhor e-mail e aguarde a surpresa que temos para você</p>
+          <p>confira também a sua caixa de spam caso não receba nada.</p>
+        </div>  
+        
 
         {/* <div className='footer-baixo'> */}
           <div className='tres'>
-            <img alt="logo cliente feliz" src={logoFooter} width='180px' className='logo-footer'/>
             <img alt="logo cliente feliz" src={meios} width='240px'/>
+            <img alt="logo cliente feliz" src={logoFooter} width='180px' className='logo-footer'/>
           </div>
           <div className='tres'>
             <p className='copy'>Copyright © 2019-2022</p>

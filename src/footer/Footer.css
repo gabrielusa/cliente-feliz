@@ -49,7 +49,7 @@ li{
 }
 
 .logo-footer{
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .copy{
@@ -59,6 +59,8 @@ li{
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .titulo-tres{
@@ -66,12 +68,17 @@ li{
     color: black;
     padding-bottom: 10px;
     transition: ease-in-out 0.2s;
+    width: fit-content;
 }
 
 .titulo-tres:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.2); */
+    padding: 10px;
     font-weight: 600;
     cursor: pointer;
+    border: 1px solid #66666666;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 
 
@@ -89,7 +96,11 @@ li{
 .subtext1-tres{
     display: none;
     padding: 15px;
-    padding-top: 0px;
+    background-color: #ffffff;
+    margin: 10px;
+    border: 1px solid #666666;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 10px #666666);
 }
 
 .subtext2-tres{
@@ -97,10 +108,20 @@ li{
     text-align: center;
     display: none;
     padding-top: 0px;
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    border-radius: 20px;
+    margin: 10px;
+    filter: drop-shadow(5px 5px 10px #666666);
 }
 
 .subtext3-tres{
+    background-color: #ffffff;
     display: none;
     padding: 15px;
     padding-top: 0px;
+    border: 1px solid #666666;
+    border-radius: 20px;
+    margin: 10px;
+    filter: drop-shadow(5px 5px 10px #666666);
 }
