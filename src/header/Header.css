@@ -1,7 +1,16 @@
-.header{
-    top: 0px;
+b{
+    color: white;
 }
 
+img {
+    margin: auto;
+    display: block;
+    transition: ease-in-out 0.2s;
+}
+
+img:hover{
+    transform: scale(1.10);
+}
 
 .announcement{
     background-color: #3acc00;
@@ -13,20 +22,35 @@
 
 .tab{
     position: relative;
+    background-color: #f4f4f4;
+    text-align: center;
 }
 
 .center-top{
     text-align: center;
     width: 100%;
     height: 40px;
-    background-color: #666666;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.img-logo{
-    float:left;
-    position: absolute;
-    padding: 10px;
+.center-top-logo{
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.tres-top{
+    color: #666666;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: ease-in-out 0.2s;
+}
+
+.tres-top:hover{
+    transform: scale(1.33);
+    color: #3acc00;
+    font-weight: 700;
 }

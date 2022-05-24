@@ -12,11 +12,14 @@ function Header() {
         </div>
 
         <div  className='tab' >
-        <img alt="logo cliente feliz" src={logo} width='130px' className='img-logo'/>
+          <a href='./home'>
+            <img alt="logo cliente feliz" src={logo} width='160px' className='center-top-logo' />
+          </a>
+          
           <div className='center-top'>
-            Inicio
-            Rastreio
-            Ofertas
+            <a className='tres-top' href='./home'>Contato</a> 
+            <a className='tres-top' href='./rastreio'>Rastreio</a>
+            <a className='tres-top' href='./produto'>Ofertas</a>
           </div>
         </div>
 
