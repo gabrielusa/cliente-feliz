@@ -1,6 +1,8 @@
 import './Footer.css';
 
+// importação de imagens
 import logoFooter from './midia/logo.webp';
+import logoFooterRedondo from './midia/logo-redonda.webp'
 import meios from './midia/meios-pagamentos.webp';
 import insta from './midia/insta.svg';
 import zap from './midia/zap.svg';
@@ -13,7 +15,7 @@ function Footer() {
       
       <div className='main'>
        <div className="footer-cima"> 
-          <div className="tres">
+          <div className="tres-div">
             <p className='titulo-tres' onClick={()=>{
               if(document.querySelector('.subtext1-tres').style.display === 'block'){
                 document.querySelector('.subtext1-tres').style.display = 'none';
@@ -27,7 +29,7 @@ function Footer() {
             </p>
           </div>
 
-          <div className="tres">
+          <div className="tres-div">
             <p className='titulo-tres' onClick={()=>{
               if(document.querySelector('.subtext2-tres').style.display === 'block'){
                 document.querySelector('.subtext2-tres').style.display = 'none';
@@ -40,7 +42,7 @@ function Footer() {
             </p>
           </div>
 
-          <div className="tres">
+          <div className="tres-div">
             <p className='titulo-tres' onClick={()=>{
               if(document.querySelector('.subtext3-tres').style.display === 'block'){
                 document.querySelector('.subtext3-tres').style.display = 'none';
@@ -49,7 +51,7 @@ function Footer() {
                       document.querySelector('.subtext2-tres').style.display = 'none';
               }
                 }}>
-              Receba presentes por email
+              Receber Presentes
             </p>          
           </div>
        </div>
@@ -67,24 +69,25 @@ function Footer() {
         </ul>
 
         <div className='subtext2-tres'>
-          <p >A nossa maior preocupação é com a sua satisfação.</p>
-          <p >Entre em contato caso tenha alguma dúvida a respeito de nossos serviços ou interaja com nossas redes sociais.</p>
-          <p >Queremos você feliz, sempre.</p>
+          <img alt="logo loja cliente feliz" src={logoFooterRedondo} width='120px' className='img-redondo'/>
+          <p>A nossa maior preocupação é com a sua satisfação. Entre em contato caso tenha alguma dúvida a respeito de nossos serviços ou interaja com nossas redes sociais.</p>
+          <p>-</p><p>Queremos você feliz, sempre.</p>
         </div>
 
         
         <div className='subtext3-tres'>
           <p>Digite o seu melhor e-mail e aguarde a surpresa que temos para você</p>
           <p>confira também a sua caixa de spam caso não receba nada.</p>
+          <p>-</p>
+          <p>*input do Whatsapp da pessoa*</p>
+          <p>Enviar</p>
         </div>  
         
 
         {/* <div className='footer-baixo'> */}
           <div className='tres'>
-            <img alt="logo cliente feliz" src={meios} width='240px'/>
+            <img alt="logo cliente feliz" src={meios} width='300px'/>
             <img alt="logo cliente feliz" src={logoFooter} width='180px' className='logo-footer'/>
-          </div>
-          <div className='tres'>
             <p className='copy'>Copyright © 2019-2022</p>
             <p className='copy'>lojaclientefeliz.com</p>
             <p className='copy'>CNPJ: 34.345.971/0001-95 / 707, Asa Norte, Brasília/DF 70740-730 - Comércio eletronico de serviços diversos.</p>
