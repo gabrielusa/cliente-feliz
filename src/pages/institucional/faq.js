@@ -1,11 +1,9 @@
-
-
-function Rastreio() {
+function FAQ() {
     return (
       <div className="home">
-        Rastreio
+        FAQ
       </div>
     );
   }
   
-  export default Rastreio;
+  export default FAQ;

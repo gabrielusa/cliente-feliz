@@ -4,8 +4,19 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Header from './header/Header';
 import Footer from './footer/Footer';
 
+// importando páginas
 import Home from './pages/Home/Home';
 import Produto from './pages/Produto/Produto';
+import Rastreio from './pages/institucional/rastreio';
+import Contato from './pages/institucional/contato';
+import Email from './pages/institucional/e-mail';
+import Envio from './pages/institucional/envio';
+import Faq from './pages/institucional/faq';
+import Privacidade from './pages/institucional/privacidade';
+import QuemSomos from './pages/institucional/quem somos';
+import Trocas from './pages/institucional/trocas-e-devolucao';
+import Wpp from './pages/institucional/whatsapp';
+
 
 import '../src/css/reset.css';
 
@@ -15,19 +26,20 @@ function App() {
       {/* Parte de cima do site */}
       <Header/>
 
-      {/* Rotas entre as páginas do site */}
+      {/* Conteúdo do site */}
       <Router>
-          <ul>
-            <li>
-              <Link to="/home">Home-Page</Link>
-            </li>
-            <li>
-              <Link to="/produto">Produto-Page</Link>
-            </li>
-          </ul>
           <Routes>
             <Route exact path="/home" element={<Home/>}></Route>
             <Route path="/produto" element={<Produto/>}></Route>
+            <Route path="/rastreio" element={<Rastreio/>}></Route>
+            <Route path="/contato" element={<Contato/>}></Route>
+            <Route path="/contato-whatsapp" element={<Wpp/>}></Route>
+            <Route path="/contato-email" element={<Email/>}></Route>
+            <Route path="/envios-prazo" element={<Envio/>}></Route>
+            <Route path="/perguntas-frequentes" element={<Faq/>}></Route>
+            <Route path="/politica-privacidade" element={<Privacidade/>}></Route>
+            <Route path="/quem-somos" element={<QuemSomos/>}></Route>
+            <Route path="/trocas-devolucoes" element={<Trocas/>}></Route>
           </Routes>
       </Router>
 

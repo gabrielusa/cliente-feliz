@@ -1,11 +1,9 @@
-
-
-function Rastreio() {
+function Contato() {
     return (
       <div className="home">
-        Rastreio
+        Contato
       </div>
     );
   }
   
-  export default Rastreio;
+  export default Contato;

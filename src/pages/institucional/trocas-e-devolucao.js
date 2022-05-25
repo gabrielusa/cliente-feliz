@@ -1,11 +1,9 @@
-
-
-function Rastreio() {
+function Trocas() {
     return (
       <div className="home">
-        Rastreio
+        Trocas
       </div>
     );
   }
   
-  export default Rastreio;
+  export default Trocas;

@@ -1,11 +1,9 @@
-
-
-function Rastreio() {
+function WhatsApp() {
     return (
       <div className="home">
-        Rastreio
+        WhatsApp
       </div>
     );
   }
   
-  export default Rastreio;
+  export default WhatsApp;

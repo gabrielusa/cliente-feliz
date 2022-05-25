@@ -1,11 +1,9 @@
-
-
-function Rastreio() {
+function Envio() {
     return (
       <div className="home">
-        Rastreio
+        Envio
       </div>
     );
   }
   
-  export default Rastreio;
+  export default Envio;
