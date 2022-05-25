@@ -10,11 +10,10 @@ import tiktok from './midia/tiktok.svg';
 
 
 function Footer() {
-
   function showOrHide(nome){
     if(document.querySelector(nome).style.display === 'block'){
       document.querySelector(nome).style.display = 'none';
-    } 
+    }
     else {
       document.querySelector(nome).style.display = 'block';
       if(  nome !== '.subtext1-tres' ){
@@ -26,9 +25,9 @@ function Footer() {
     }
   }
 
-  return (
-    
+  return ( 
     <div className='main'>
+
       <div className="footer-cima"> 
         <div className="tres-div ">
           <p className='titulo-tres' onClick={() => showOrHide('.subtext1-tres')}>
@@ -58,7 +57,7 @@ function Footer() {
         <li><a href='./quem-somos' className='redirect'>Quem Somos</a></li>
         <li><a href='./contato-whatsapp' className='redirect'>Contate um especialista por WhatsApp</a></li>
         <li><a href='./contato-email' className='redirect'>Contate um especialista por Email</a></li>
-        <li><a href='./perguntas-frequentes' className='redirect'>Dúvidas Frequentes</a></li>
+        {/* <li><a href='./perguntas-frequentes' className='redirect'>Dúvidas Frequentes</a></li> */}
       </ul>
 
       <div className='subtext2-tres borda-clicada'>
@@ -99,7 +98,6 @@ function Footer() {
         </div>
       </div>
   );
-  
 }
   
 export default Footer;
