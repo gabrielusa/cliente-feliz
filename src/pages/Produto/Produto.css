@@ -1,5 +1,7 @@
 .produto{
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .sub-text{
@@ -11,7 +13,8 @@
     font-weight: 500;
     font-size: 22px;
     color: black;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .bold{
@@ -39,12 +42,14 @@
 }
 
 .disclaimer-product{
-    text-align: start;
-    margin: 25px;
+    /* text-align: center; */
+    margin-top: 25px;
+    margin-bottom: 25px;
     
 }
 
 .disclaimer-two{
+    /* text-align: center; */
     display: flex;
     margin-bottom: 15px;
 }
@@ -55,4 +60,46 @@
 
 .disclaimer-text{
     font-size: 16px;
+}
+
+.azul-link{
+    color: #3483fa;
+    cursor: pointer;
+}
+
+.payment-method{
+    background-color: #f4f4f4;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.bot-20{
+    margin-bottom: 20px;
+}
+
+.rate-stars{
+    display: inline-flex;
+}
+
+
+.price{
+display: flex;
+align-items: baseline;
+}
+
+.price-min{
+    font-size: 18px;
+    color: red;
+
+}
+
+.price-max{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+
 }
