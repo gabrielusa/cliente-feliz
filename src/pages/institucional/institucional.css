@@ -11,6 +11,7 @@
     padding-right: 2rem;
     padding-bottom: 25px;
 }
+
 .texto-inst{
     width: 80%;
     padding-left: 2rem;
@@ -28,7 +29,7 @@
 .box-border{
     margin: 2rem;
     padding: 10px;
-    /* border: 1px solid black; */
+    border: 1px solid #666666;
     background-color: #f4f4f4;
     border-radius: 20px;
     text-align: center;
@@ -43,6 +44,7 @@
     margin-bottom: 15px;
     border-color: #3acc00;
     transition: ease-in-out 0.2s;
+    cursor: pointer;
 }
 
 .btn-inst:hover{

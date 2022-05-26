@@ -43,7 +43,7 @@ function Footer() {
 
         <div className="tres-div">
           <p className='titulo-tres' onClick={() => showOrHide('.subtext3-tres')}>
-            Receber Presentes
+            Receba Presentes
           </p>          
         </div>
       </div>

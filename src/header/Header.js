@@ -17,7 +17,7 @@ function Header() {
           </a>
           
           <div className='center-top'>
-            <a className='tres-top' href='./home'>Contato</a> 
+            <a className='tres-top' href='./contato'>Contato</a> 
             <a className='tres-top' href='./rastreio'>Rastreio</a>
             <a className='tres-top' href='./produto'>Oferta</a>
           </div>
