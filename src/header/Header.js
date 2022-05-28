@@ -7,13 +7,16 @@ import logo from './logo-cliente-feliz.png'
 function Header() {
     return (
       <div className='header' >
+        {/* input serve para validar se o announcemente aparece ou n */}
+        <input type='checkbox' name='announcement-close' id='check-announcement' className='input-slide' />
         <div className='announcement'>
-          <b>Parabéns!</b> Você ganhou frete grátis para o seu pedido!
+          <span className='announcement-text'><b>Parabéns!</b> Você ganhou frete grátis para o seu pedido!</span>
+          <label className='close-announcement' for='check-announcement'>x</label>
         </div>
 
         <div  className='tab' >
-          <a href='./home'>
-            <img alt="logo cliente feliz" src={logo} width='160px' className='center-top-logo' />
+          <a href='./'>
+            <img alt="logo cliente feliz" src={logo}  className='center-top-logo' />
           </a>
           
           <div className='center-top'>

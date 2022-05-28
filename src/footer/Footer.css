@@ -65,6 +65,8 @@ li{
 
 .logo-footer{
     padding-top: 20px;
+    width: 90%;
+    max-width: 300px;
 }
 
 .copy{

@@ -6,6 +6,7 @@ import check from './midia/check.svg'
 import delivery from './midia/delivery.svg'
 import payment_method from './midia/payment.webp'
 import star from './midia/star.svg'
+import verificado from './midia/verificado.svg'
 
 function Produto() {
     return (
@@ -22,13 +23,16 @@ function Produto() {
           <p className='sub-text'>(+500 Avaliações positivas.)</p>
         </div>
 
-        <p className='titulo-produto'><spam className='titulo-produto bold'>Unto-Pencil™</spam>Pincel Siliconado com dispenser perfeito para completar a sua cozinha!</p>
+        <div className='product-title'>
+          <p className='titulo-produto'>
+            <span className='titulo-produto bold'>Unto-Pencil™</span>Pincel Siliconado com dispenser <img className='verificado' alt='produto exclusivo da loja cliente feliz' src={verificado} width='20px' />
+          </p>
+        </div>
 
         <div className='price'>
          <p className='price-min'>R$ 176,00</p> 
-         <p className='price-max'>R$ 176,00</p>
+         <p className='price-max'>&nbsp;R$ 116,00</p>
         </div>
-
 
         <p className='sub-text'>foto     foto     foto</p>
         <button className='btn-product'>QUERO O MEU AGORA</button>
@@ -53,7 +57,7 @@ function Produto() {
         </div>
 
         <div className='payment-method'>
-          <img alt='metodo de pagamento seguro' src={payment_method} width='280px'  className='bot-20'  ></img>
+          <img alt='metodo de pagamento seguro' src={payment_method} width='280px'  className='max-w-300 bot-20'  ></img>
           <a href='./contato' className='disclaimer-text azul-link'>Dificuldades com o pagamento?</a>
         </div>
 

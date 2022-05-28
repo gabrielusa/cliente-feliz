@@ -1,12 +1,17 @@
 .produto{
     /* text-align: center; */
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    /* margin-left: 1.5rem; */
+    /* margin-right: 1.5rem; */
+    margin: 1.5rem;
 }
 
 .sub-text{
     font-size: 14px;
 
+}
+
+.verificado {
+    display: inline-block;
 }
 
 .titulo-produto{
@@ -28,7 +33,8 @@
     color: white;
     background: #3acc00;
     border-radius: 40px;
-    width: 330px;
+    width: 90%;
+    max-width: 350px;
     height: 60px;
     border: 0;
     font-size: 22px;
@@ -94,12 +100,23 @@ align-items: baseline;
 .price-min{
     font-size: 18px;
     color: red;
+    text-decoration: line-through;
 
 }
 
 .price-max{
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 600;
     color: black;
+}
+
+.max-w-300{
+    width: 90%;
+    max-width: 300px;
+}
+
+@media (max-width: 370px){
+
+
 
 }

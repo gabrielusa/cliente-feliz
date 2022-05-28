@@ -29,7 +29,7 @@ function Footer() {
   return ( 
     <div className='main'>
 
-      <img alt='Selo de segurança e garantia da loja cliente feliz' src={selo_footer} width='320px'></img>
+      <img alt='Selo de segurança e garantia da loja cliente feliz' src={selo_footer} className='logo-footer'></img>
 
 
       <div className="footer-cima"> 
@@ -80,7 +80,7 @@ function Footer() {
       
       {/* <div className='footer-baixo'> */}
         <div className='tres'>
-          <img alt="logo cliente feliz" src={meios} width='300px'/>
+          <img alt="logo cliente feliz" src={meios} className='logo-footer' />
           <img alt="logo cliente feliz" src={logoFooter} width='180px' className='logo-footer'/>
           <p className='copy'>Copyright © 2019-2022</p>
           <p className='copy'>lojaclientefeliz.com</p>

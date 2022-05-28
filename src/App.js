@@ -23,13 +23,14 @@ import '../src/css/reset.css';
 function App() {
   return (
     <div >
+      
       {/* Parte de cima do site */}
       <Header/>
 
       {/* Conteúdo do site */}
       <Router>
           <Routes>
-            <Route exact path="/home" element={<Home/>}></Route>
+            <Route exact path="/" element={<Home/>}></Route>
             <Route path="/produto" element={<Produto/>}></Route>
             <Route path="/rastreio" element={<Rastreio/>}></Route>
             <Route path="/contato" element={<Contato/>}></Route>
