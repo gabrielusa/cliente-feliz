@@ -46,27 +46,27 @@ function Home() {
           <div className='sub-slide1'>
             <img alt='' src=''  />
             <div className='sub-slide-text'>
-              <titulo/>
+              {/* <titulo/>
               <texto/>
-              <link/>
+              <link/> */}
             </div>
           </div>
 
           <div className='sub-slide1'>
             <img alt='' src=''  />
             <div className='sub-slide-text'>
-              <titulo/>
+              {/* <titulo/>
               <texto/>
-              <link/>
+              <link/> */}
             </div>
           </div>
 
           <div className='sub-slide1'>
             <img alt='' src=''  />
             <div className='sub-slide-text'>
-              <titulo/>
+              {/* <titulo/>
               <texto/>
-              <link/>
+              <link/> */}
             </div>
           </div>
         </div>
