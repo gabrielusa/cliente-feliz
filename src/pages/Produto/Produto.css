@@ -1,13 +1,25 @@
-.produto{
-    /* text-align: center; */
-    /* margin-left: 1.5rem; */
-    /* margin-right: 1.5rem; */
-    margin: 1.5rem;
+
+.content-product{
+    width: 80%;
+    max-width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 25px;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%);
+    /* box-shadow: 6px 6px 10px #66666683; */
 }
 
-.sub-text{
-    font-size: 14px;
 
+.sub-text{
+    font-size: 1.4rem;
+
+}
+
+.foto{
+    max-width: 400px;
 }
 
 .verificado {
@@ -16,7 +28,7 @@
 
 .titulo-produto{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: black;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -34,13 +46,17 @@
     background: #3acc00;
     border-radius: 40px;
     width: 90%;
-    max-width: 350px;
-    height: 60px;
-    border: 0;
-    font-size: 22px;
+    max-width: 320px;
+    height: 50px;
+    font-size: 2.0rem;
     font-weight: 600;
     margin-top: 20px;
-    margin-bottom: 20px;
+    border: none;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .verde-ml{
@@ -48,24 +64,32 @@
 }
 
 .disclaimer-product{
-    /* text-align: center; */
+    /* text-align: left; */
     margin-top: 25px;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     
 }
 
 .disclaimer-two{
-    /* text-align: center; */
+    /* position: relative; */
+    /* left: 10px; */
+    /* text-align: left; */
     display: flex;
     margin-bottom: 15px;
 }
 
 .disclaimer-icon{
     margin-right: 20px;
+    position: relative;
+    left: 0px;
 }
 
 .disclaimer-text{
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .azul-link{
@@ -98,14 +122,14 @@ align-items: baseline;
 }
 
 .price-min{
-    font-size: 18px;
+    font-size: 1.8rem;
     color: red;
     text-decoration: line-through;
 
 }
 
 .price-max{
-    font-size: 34px;
+    font-size: 3.4rem;
     font-weight: 600;
     color: black;
 }
@@ -115,8 +139,29 @@ align-items: baseline;
     max-width: 300px;
 }
 
-@media (max-width: 370px){
 
 
+@media (min-width: 600px){
+
+    .inicio-produto{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: flex-start; */
+        align-items: flex-start;
+    }
+
+    .inicio-produto-one{
+        width: 50%;
+        /* border: 1px solid black; */
+    }
+
+    .inicio-produto-two{
+        position: relative;
+        width: 50%;
+        padding-left: 5%;
+        max-width: 500px;
+        /* background-color: red; */
+        /* border: 1px solid black; */
+    }
 
 }
