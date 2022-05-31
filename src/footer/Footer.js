@@ -80,8 +80,8 @@ function Footer() {
       
       {/* <div className='footer-baixo'> */}
         <div className='tres'>
-          <img alt="logo cliente feliz" src={meios} className='logo-footer' />
-          <img alt="logo cliente feliz" src={logoFooter} width='180px' className='logo-footer'/>
+          <img alt="logo cliente feliz" src={meios} className='payments-footer' />
+          <img alt="logo cliente feliz" src={logoFooter}  className='logo-footer'/>
           <p className='copy'>Copyright © 2019-2022</p>
           <p className='copy'>lojaclientefeliz.com</p>
           <p className='copy'>CNPJ: 34.345.971/0001-95 / 707, Asa Norte, Brasília/DF 70740-730 - Comércio eletronico de serviços diversos.</p>

@@ -16,39 +16,7 @@ function Produto() {
 
          <div className='inicio-produto-one'>
 
-          {/* INICIO SLIDE INICIAL */}
-          <div className='content-product'>
-            <div className='slides'>
-              <input type='checkbox' name='produto-slide' id='produto-slide1' className='input-slide'/>
-              <input type='checkbox' name='produto-slide' id='produto-slide2' className='input-slide'/>
-              <input type='checkbox' name='produto-slide' id='produto-slide3' className='input-slide'/>
-              <input type='checkbox' name='produto-slide' id='produto-slide4' className='input-slide'/>
-
-              <div className='slide s1'>
-                <img src={perspirex} alt=''/>
-              </div>
-              <div className='slide'>
-                <img src={perspirex} alt=''/>
-              </div>
-              <div className='slide'>
-                <img src={perspirex} alt=''/>
-              </div>
-              <div className='slide'>
-                <img src={perspirex} alt=''/>
-              </div>
-
-              <div className='navigation'>
-                <label className='bar' for='produto-slide1'/>
-                <label className='bar' for='produto-slide2'/>
-                <label className='bar' for='produto-slide3'/>
-                <label className='bar' for='produto-slide4'/>
-              </div>
-            </div>
-          </div>
-          {/* FIM SLIDE INICIAL */}
-
-
-            {/* <img alt="logo loja cliente feliz" src={perspirex} width='75%' className='foto'/> */}
+            <img alt="logo loja cliente feliz" src={perspirex} width='75%' className='foto'/>
             <p className='sub-text'>© Vendido e entregue pela Rede VFarma.</p>
 
             <div className='rate-stars'>

@@ -5,9 +5,9 @@ import slide2 from './midia/mobile1_600x.webp'
 import slide3 from './midia/mobile3_600x.webp'
 import slide4 from './midia/mobile_4_600x.webp'
 
-import arrow_back from '../Produto/midia/arrow_back.svg'
-import check from '../Produto/midia/check.svg'
-import delivery from '../Produto/midia/delivery.svg'
+import wallet from './midia/wallet.webp'
+import fly from './midia/fly.webp'
+import security from './midia/security.webp'
 
 function Home() {
     return (
@@ -45,25 +45,49 @@ function Home() {
         {/* FIM SLIDE INICIAL */}
 
         {/* INICIO TEXTOS SUB SLIDE */}
-        <div className='disclaimer-product'>
+        <div className='disclaimer-home'>
 
-          <div className='disclaimer-two'>
-            <img alt="logo cliente feliz" src={delivery} width='20px' className='disclaimer-icon'/>
-            <p className='disclaimer-text verde-ml'>Chegará grátis <span className='disclaimer-text bold verde-ml'> entre 9 à 15 dias úteis.</span></p>     
+          <div className='disclaimer-home-two'>
+            <img alt="logo cliente feliz" src={wallet} width='25px' className='disclaimer-home-icon'/>
+            <div className='disclaimer-home-two-text'>
+              <p className=' bold'>Pague com Cartão de Crédito, Boleto ou PIX.</p>
+              <p >Aqui você escolhe pagar no cartão de crédito parcelado em até 12 vezes, ou à vista no boleto ou PIX. Com o Mercado Pago você sempre está seguro!</p> 
+              <p className='disclaimer-home-two-link' >Estou tendo problemas com pagamentos.</p>
+            </div>
           </div>
 
-          <div className='disclaimer-two'>
-            <img alt="logo cliente feliz" src={check} width='20px' className='disclaimer-icon'/>
-            <p className='disclaimer-text'><span className='disclaimer-text bold'>Compra Garantida,</span> receba o produto que está esperando ou devolvemos o dinheiro.</p>    
+          <div className='disclaimer-home-two'>
+            <img alt="logo cliente feliz" src={fly} width='25px' className='disclaimer-home-icon'/>
+            <div className='disclaimer-home-two-text'>
+              <p className='bold'>Frete grátis com Rastreamento.</p>  
+              <p>Escolha a melhor opção de envio para você, e aproveite para rastrear sua compra em tempo real até recebê-la. Todos os seus pacotes estão sempre protegidos.</p>
+              <p className='disclaimer-home-two-link' >Rastreie o seu pedido aqui</p> 
+            </div>
+  
           </div>
 
-          <div className='disclaimer-two'>
-            <img alt="logo cliente feliz" src={arrow_back} width='20px' className='disclaimer-icon'/>
-            <p className='disclaimer-text'><span className='disclaimer-text bold'>Devolução Grátis.</span> você tem 7 dias a partir da data de recebimento.</p>   
+          <div className='disclaimer-home-two'>
+            <img alt="logo cliente feliz" src={security} width='25px' className='disclaimer-home-icon'/>
+            <div className='disclaimer-home-two-text'>
+              <p className='bold'>Segurança, do Início ao Fim.</p>   
+              <p >Acompanhamos você até que você receba o produto que comprou. E se não receber o que esperava, devolveremos o seu dinheiro sem complicações.</p> 
+              <p className='disclaimer-home-two-link' >Nossas políticas de Trocas e Devoluções.</p>
+            </div>
+
           </div>
           
         </div>
-        {/* INICIO TEXTOS SUB SLIDE */}
+        {/* fim TEXTOS SUB SLIDE */}
+
+        <div className='video' align='center'>
+          <iframe loading="lazy"
+                  class="video-youtube" 
+                  align="center"
+                  src="https://www.youtube-nocookie.com/embed/nYjVgclZ6ww?controls=0" 
+                  title="Conheça a loja mais feliz do Brasil" 
+                  frameborder="0">
+          </iframe>
+        </div>
 
       </div>
     );

@@ -65,8 +65,14 @@ li{
 
 .logo-footer{
     padding-top: 20px;
+    width: 60%;
+    max-width: 220px;
+}
+
+.payments-footer{
+    padding-top: 20px;
     width: 90%;
-    max-width: 300px;
+    max-width: 320px;
 }
 
 .copy{
@@ -115,10 +121,15 @@ li{
 .borda-clicada{
     padding: 15px;
     background-color: #ffffff;
-    margin: 10px;
+    /* margin: 10px; */
     border-radius: 20px;
     /* filter: drop-shadow(5px 5px 10px #6666667c); */
     border: 1px solid #66666666;
+    width: 70%;
+    max-width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .subtext1-tres{

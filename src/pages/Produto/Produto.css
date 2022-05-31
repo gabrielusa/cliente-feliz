@@ -28,7 +28,7 @@
 
 .titulo-produto{
     font-weight: 500;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     color: black;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -48,7 +48,7 @@
     width: 90%;
     max-width: 320px;
     height: 50px;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     font-weight: 600;
     margin-top: 20px;
     border: none;
@@ -122,14 +122,14 @@ align-items: baseline;
 }
 
 .price-min{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: red;
     text-decoration: line-through;
 
 }
 
 .price-max{
-    font-size: 3.4rem;
+    font-size: 2.6rem;
     font-weight: 600;
     color: black;
 }
