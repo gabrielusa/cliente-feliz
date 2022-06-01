@@ -16,6 +16,7 @@ import Privacidade from './pages/institucional/privacidade';
 import QuemSomos from './pages/institucional/quem somos';
 import Trocas from './pages/institucional/trocas-e-devolucao';
 import Wpp from './pages/institucional/whatsapp';
+import Pop1 from './pages/pop-up/pop1';
 
 
 import '../src/css/reset.css';
@@ -41,6 +42,7 @@ function App() {
             <Route path="/politica-privacidade" element={<Privacidade/>}></Route>
             <Route path="/quem-somos" element={<QuemSomos/>}></Route>
             <Route path="/trocas-devolucoes" element={<Trocas/>}></Route>
+            <Route path="/pop-up" element={<Pop1/>}></Route>
           </Routes>
       </Router>
 
