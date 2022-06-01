@@ -39,7 +39,7 @@ function Footer() {
           </p>
         </div>
 
-        <div className="tres-div">
+        <div className="tres-div tres-div-border">
           <p className='titulo-tres' onClick={() => showOrHide('.subtext2-tres')}>
                 Você Feliz, Sempre.
           </p>
