@@ -44,7 +44,7 @@
 .btn-product{
     color: white;
     background: #3acc00;
-    border-radius: 40px;
+    border-radius: 5px;
     width: 90%;
     max-width: 320px;
     height: 50px;
@@ -89,7 +89,7 @@
 }
 
 .disclaimer-text{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .azul-link{

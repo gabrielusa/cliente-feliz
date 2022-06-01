@@ -35,10 +35,10 @@ function Home() {
             </div>
 
             <div className='navigation'>
-              <label className='bar' for='slide1'/>
-              <label className='bar' for='slide2'/>
-              <label className='bar' for='slide3'/>
-              <label className='bar' for='slide4'/>
+              <label className='bar' htmlFor='slide1'/>
+              <label className='bar' htmlFor='slide2'/>
+              <label className='bar' htmlFor='slide3'/>
+              <label className='bar' htmlFor='slide4'/>
             </div>
           </div>
         </div>
@@ -81,11 +81,11 @@ function Home() {
 
         <div className='video' align='center'>
           <iframe loading="lazy"
-                  class="video-youtube" 
+                  // className=video-youtube 
                   align="center"
                   src="https://www.youtube-nocookie.com/embed/nYjVgclZ6ww?controls=0" 
                   title="Conheça a loja mais feliz do Brasil" 
-                  frameborder="0">
+                  frameBorder="0">
           </iframe>
         </div>
 

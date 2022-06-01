@@ -33,7 +33,7 @@ function Produto() {
 
             <div className='product-title'>
               <p className='titulo-produto'>
-                <span className='titulo-produto bold'>Unto-Pencil™</span>Pincel Siliconado com dispenser <img className='verificado' alt='produto exclusivo da loja cliente feliz' src={verificado} width='20px' />
+                <span className='titulo-produto bold'>Unto-Pencil™</span>Pincel Siliconado com dispenser <img className='verificado' alt='produto exclusivo da loja cliente feliz' src={verificado} width='16px' />
               </p>
             </div>
 
