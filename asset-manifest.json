@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/cliente-feliz/static/css/main.59255e2e.css",
+    "main.js": "/cliente-feliz/static/js/main.3607530d.js",
+    "static/media/perspirex.png": "/cliente-feliz/static/media/perspirex.4601f2a6d107008b7247.png",
+    "static/media/selo-deguranca.webp": "/cliente-feliz/static/media/selo-deguranca.86aac53b5db4f2982efd.webp",
+    "static/media/mobile_600x.webp": "/cliente-feliz/static/media/mobile_600x.d2d9d9ffdb12b6abb0fb.webp",
+    "static/media/mobile3_600x.webp": "/cliente-feliz/static/media/mobile3_600x.314dc16a5ebff05e7e4a.webp",
+    "static/media/mobile_4_600x.webp": "/cliente-feliz/static/media/mobile_4_600x.3ba7af6ddb36001797d9.webp",
+    "static/media/mobile1_600x.webp": "/cliente-feliz/static/media/mobile1_600x.d2fae693d5df7045d469.webp",
+    "static/media/payment.webp": "/cliente-feliz/static/media/payment.745451ce384bcbe1a3c6.webp",
+    "static/media/meios-pagamentos.webp": "/cliente-feliz/static/media/meios-pagamentos.f95767bdcb50f1288cc1.webp",
+    "static/media/logo-redonda.webp": "/cliente-feliz/static/media/logo-redonda.1888a8377340ed2f08c0.webp",
+    "static/media/delivery.svg": "/cliente-feliz/static/media/delivery.c128028bfebb0fe735b15a86409254f4.svg",
+    "static/media/logo.webp": "/cliente-feliz/static/media/logo.258d0fe516fe1fc1b621.webp",
+    "static/media/fly.webp": "/cliente-feliz/static/media/fly.01e23241aa2e644c3efa.webp",
+    "static/media/security.webp": "/cliente-feliz/static/media/security.a7ae288d7f5808ad1cb8.webp",
+    "static/media/wallet.webp": "/cliente-feliz/static/media/wallet.6ed92071f853996f5f08.webp",
+    "static/media/arrow_back.svg": "/cliente-feliz/static/media/arrow_back.9830ad3680666dafa0e2c69ef0e5404f.svg",
+    "static/media/insta.svg": "/cliente-feliz/static/media/insta.12e853fb2b9a22ba4bec184a3d438b26.svg",
+    "static/media/zap.svg": "/cliente-feliz/static/media/zap.458098f48587eb60274b465ca2010e72.svg",
+    "static/media/check.svg": "/cliente-feliz/static/media/check.4dc26c262c1703f4bdc3e20eef746170.svg",
+    "static/media/star.svg": "/cliente-feliz/static/media/star.31a505359d4450e8047dd96e2e5f9fdc.svg",
+    "static/media/verificado.svg": "/cliente-feliz/static/media/verificado.12bb1c282d7015c224200a7509db1665.svg",
+    "index.html": "/cliente-feliz/index.html",
+    "static/media/tiktok.svg": "/cliente-feliz/static/media/tiktok.96e396997f476bd1208a425852456746.svg",
+    "main.59255e2e.css.map": "/cliente-feliz/static/css/main.59255e2e.css.map",
+    "main.3607530d.js.map": "/cliente-feliz/static/js/main.3607530d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59255e2e.css",
+    "static/js/main.3607530d.js"
+  ]
+}
