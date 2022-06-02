@@ -51,14 +51,14 @@ img {
 
 .tab{
     position: relative;
-    background-color: #f4f4f4;
+    background-color: var(--branco-apple);
     text-align: center;
     width: 100vw;
 }
 
 .tab2{
     position: relative;
-    background-color: #f4f4f4;
+    background-color: var(--branco-apple);
     text-align: center;
     width: 100vw;
 }
@@ -82,7 +82,7 @@ img {
 }
 
 .tres-top{
-    color: #666666;
+    color: var(--cinza-ml);
     font-weight: 600;
     font-size: 1.6rem;
     padding-left: 25px;

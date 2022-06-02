@@ -17,6 +17,10 @@ import QuemSomos from './pages/institucional/quem somos';
 import Trocas from './pages/institucional/trocas-e-devolucao';
 import Wpp from './pages/institucional/whatsapp';
 import Pop1 from './pages/pop-up/pop1';
+import Review from './pages/Produto/Review';
+import Description from './pages/Produto/description';
+
+
 
 
 import '../src/css/reset.css';
@@ -43,6 +47,10 @@ function App() {
             <Route path="/quem-somos" element={<QuemSomos/>}></Route>
             <Route path="/trocas-devolucoes" element={<Trocas/>}></Route>
             <Route path="/pop-up" element={<Pop1/>}></Route>
+            <Route path="/Description" element={<Description/>}></Route>
+            <Route path="/Review" element={<Review/>}></Route>
+
+            
           </Routes>
       </Router>
 
