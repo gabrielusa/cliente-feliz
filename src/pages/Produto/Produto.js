@@ -46,8 +46,10 @@ function Produto() {
               </div>
 
               <p className='sub-text'>foto     foto     foto</p>
-              <button className='btn-product'>COMPRAR AGORA</button>
-
+              <div className='produto-inicio-btn'>
+                <button className='btn-product'>COMPRAR AGORA</button>
+              </div>
+            
               <div className='disclaimer-product'>
 
                 <div className='disclaimer-two'>
@@ -82,7 +84,10 @@ function Produto() {
               
               {Review()}
               <img alt='Selo de segurança e garantia da loja cliente feliz' src={selo_footer} className='selo-footer'/>
-              <button className='btn-description'>compra garantida</button>
+              <div className='produto-inicio-btn'>
+                <button className='btn-description'>compra garantida</button>
+              </div>
+              
       </div>
     );
   }

@@ -108,8 +108,8 @@ function Home() {
 
 
 
-        {/* INICIO VIDEO PLAYER */}  
-        <span className='home-title'>Assista:</span>
+        INICIO VIDEO PLAYER  
+        {/* <span className='home-title'>Assista:</span>
         <div className='video' align='center'>
           <iframe loading="lazy"
                   // className=video-youtube 
@@ -118,7 +118,7 @@ function Home() {
                   title="Conheça a loja mais feliz do Brasil" 
                   frameBorder="0">
           </iframe>
-        </div>
+        </div> */}
         {/* FIM VIDEO PLAYER */}  
 
       </div>

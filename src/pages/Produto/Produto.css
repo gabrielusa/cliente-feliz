@@ -57,6 +57,12 @@
     justify-content: center;
     cursor: pointer;
     transition: ease-in-out .3s;
+    /* animation: pulse 2s infinite; */
+}
+
+.produto-inicio-btn{
+    display: flex;
+    transform: scale(1.2);
     animation: pulse 2s infinite;
 }
 
@@ -84,7 +90,8 @@
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
-    animation: pulse 2s infinite;
+    /* animation: pulse 2s infinite; */
+    
 }
 
 .verde-ml{
@@ -211,30 +218,33 @@ align-items: baseline;
 
 @keyframes pulse {
 	0% {
-        font-size: 1.4rem;
+        transform: scale(0.97);
+        /* font-size: 1.4rem;
         height: 55px;
         font-weight: 400px;
-        max-width: 500px;
+        max-width: 500px; */
 
-		box-shadow: 0 0 0 0 #3acc009f;
+		/* box-shadow: 0 0 0 0 #3acc009f; */
 	}
 
 	70% {
-        font-size: 1.6rem;
+        transform: scale(1.03);
+        /* font-size: 1.6rem;
         height: 55px;
         font-weight: 420px;
-        max-width: 520px;
+        max-width: 520px; */
 
-		box-shadow: 0 0 0 10px #3acc0039;
+		/* box-shadow: 0 0 0 10px #3acc0039; */
 	}
 
 	100% {
-        font-size: 1.4rem;
+        transform: scale(0.97);
+        /* font-size: 1.4rem;
         height: 55px;
         font-weight: 400px;
-        max-width: 500px;
+        max-width: 500px; */
 
-		box-shadow: 0 0 0 0 #3acc0000;
+		/* box-shadow: 0 0 0 0 #3acc0000; */
 	}
 }
 
