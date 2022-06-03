@@ -112,6 +112,7 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    margin-top: 15px;
 
 }
 
@@ -127,4 +128,44 @@
     font-size: 1.4rem;
     width: 85%;
     padding-left: 15%;
+}
+
+.home-title{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.home-text{
+    font-size: 1.6rem;
+
+}
+
+.home-banners{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items:flex-end; */
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.home-banners-solo{
+    /* padding-right: 25px; */
+    flex: 0 0 auto;
+    /* display:  block; */
+    /* align-items: unset; */
+    /* justify-content: space-evenly; */
+    color: #ffffff;
+    /* background-color: red; */
+}
+
+.home-banners-img{
+    position: relative;
+    /* left: 0%; */
+    /* width: 100%; */
+    max-width: 280px;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }

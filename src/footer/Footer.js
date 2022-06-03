@@ -7,7 +7,7 @@ import meios from './midia/meios-pagamentos.webp';
 import insta from './midia/insta.svg';
 import zap from './midia/zap.svg';
 import tiktok from './midia/tiktok.svg';
-import selo_footer from './midia/selo-deguranca.webp'
+// import selo_footer from './midia/selo-deguranca.webp'
 
 
 function Footer() {
@@ -29,7 +29,7 @@ function Footer() {
   return ( 
     <div className='main'>
 
-      <img alt='Selo de segurança e garantia da loja cliente feliz' src={selo_footer} className='logo-footer'></img>
+      {/* <img alt='Selo de segurança e garantia da loja cliente feliz' src={selo_footer} className='logo-footer'/> */}
 
 
       <div className="footer-cima"> 

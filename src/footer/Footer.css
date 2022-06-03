@@ -57,14 +57,15 @@ li{
 }
 
 .tres-icons{
-    /* min-width: 24.99%; */
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
-    /* padding: 3.5rem; */
-    height: 100%;
-    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    max-width: 320px;
 }
 
 .logo-footer{
@@ -80,7 +81,7 @@ li{
 }
 
 .copy{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     text-align: center;
     align-items: center;
@@ -88,6 +89,10 @@ li{
     display: flex;
     padding-left: 2rem;
     padding-right: 2rem;
+    max-width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .titulo-tres{

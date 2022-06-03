@@ -30,6 +30,7 @@ export default function Description() {
                         <img src={desc2} alt='' className='description-img'/>
                         <div className='description-text'>Já chega de fazer sujeira na cozinha enquanto prepara aquela receita deliciosa. A loja cliente feliz apresenta o Unto-Pencil™, um produto Feito com o exclusivo Silicone-Inteligente, que irá deixar suas receitas muito mais práticas e fáceis, atuando como um pincel e dispensador de óleo tudo em um só...</div>
                         <img src={desc3} alt='' className='description-img'/>
+                        <button className='btn-description'>COMPRAR AGORA</button>
                     </div>
                 </div>
 
@@ -47,6 +48,7 @@ export default function Description() {
                         <img src={desc6} alt='' className='description-img'/>
                         <div className='description-text'>Unto-Pencil™ é uma ferramenta de cozinha completa para assar, cozinhar e também fazer aquele churrasco. Com um design super moderno, um bocal projetado para não fazer sujeira.</div>    
                         <img src={desc7} alt='' className='description-img'/>
+                        <button className='btn-description'>COMPRAR AGORA</button>
                     </div>
                 </div>
 

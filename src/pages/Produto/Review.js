@@ -3,7 +3,7 @@ import './Produto.css';
 export default function Review() {
     return (
             <div>
-                review
+                <span className='home-title'>FALTA OS REVIEWS</span>
                 
             </div>
     ) }

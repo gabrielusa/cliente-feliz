@@ -10,6 +10,7 @@ import delivery from './midia/delivery.svg'
 import payment_method from './midia/payment.webp'
 import star from './midia/star.svg'
 import verificado from './midia/verificado.svg'
+import selo_footer from '../../footer/midia/selo-deguranca.webp'
 
 function Produto() {
     return (
@@ -54,6 +55,7 @@ function Produto() {
                   <p className='disclaimer-text verde-ml'>Chegará grátis <span className='disclaimer-text bold verde-ml'> entre 9 à 15 dias úteis.</span></p>     
                 </div>
 
+
                 <div className='disclaimer-two'>
                   <img alt="logo cliente feliz" src={check} width='20px' className='disclaimer-icon'/>
                   <p className='disclaimer-text'><span className='disclaimer-text bold'>Compra Garantida,</span> receba o produto que está esperando ou devolvemos o dinheiro.</p>    
@@ -79,7 +81,8 @@ function Produto() {
               {Description()}
               
               {Review()}
-
+              <img alt='Selo de segurança e garantia da loja cliente feliz' src={selo_footer} className='selo-footer'/>
+              <button className='btn-description'>compra garantida</button>
       </div>
     );
   }

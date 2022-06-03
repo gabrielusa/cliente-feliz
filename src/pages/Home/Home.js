@@ -4,6 +4,11 @@ import slide1 from './midia/mobile_600x.webp'
 import slide2 from './midia/mobile1_600x.webp'
 import slide3 from './midia/mobile3_600x.webp'
 import slide4 from './midia/mobile_4_600x.webp'
+import bannershome1 from './midia/banners-home1.webp'
+import bannershome2 from './midia/banners-home2.webp'
+import bannershome3 from './midia/banners-home3.webp'
+import bannershome4 from './midia/banners-home4.webp'
+
 
 import wallet from './midia/wallet.webp'
 import fly from './midia/fly.webp'
@@ -79,6 +84,32 @@ function Home() {
         </div>
         {/* fim TEXTOS SUB SLIDE */}
 
+        {/* INICIO BANNERS */}  
+        <span className='home-title'>Confira:</span>
+        <div className='home-banners'>
+          <div className='home-banners-solo' id="home-banners-solo1">
+            <img alt="Ofertas com até 70% de desconto" src={bannershome1} width='260px' className='home-banners-img'/> 
+            <span className='home-text'>Saúde e Beleza</span>
+          </div>
+          <div className='home-banners-solo' id="home-banners-solo2">
+            <img alt="Produtos para casa e cozinha" src={bannershome2} width='260px' className='home-banners-img'/> 
+            <span className='home-text'>Casa e Cozinha</span> 
+          </div>
+          <div className='home-banners-solo' id="home-banners-solo3">
+            <img alt="Produtos para o seu melhor amigo cão e gato" src={bannershome3} width='260px' className='home-banners-img'/>  
+            <span className='home-text'>PetLove: cães e gatos</span>
+          </div>
+          <div className='home-banners-solo' id="home-banners-solo4">
+            <img alt="Produtos únicos que você precisa" src={bannershome4} width='260px' className='home-banners-img'/>
+            <span className='home-text'>Soluções Criativas</span>  
+          </div>
+        </div>
+        {/* FIM BANNERS */}  
+
+
+
+        {/* INICIO VIDEO PLAYER */}  
+        <span className='home-title'>Assista:</span>
         <div className='video' align='center'>
           <iframe loading="lazy"
                   // className=video-youtube 
@@ -88,6 +119,7 @@ function Home() {
                   frameBorder="0">
           </iframe>
         </div>
+        {/* FIM VIDEO PLAYER */}  
 
       </div>
     );
