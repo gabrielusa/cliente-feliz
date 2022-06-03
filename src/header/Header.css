@@ -8,14 +8,6 @@ img {
     transition: ease-in-out 0.2s;
 }
 
-/* .header{
-    position: fixed;
-} */
-
-/* img:hover{
-    transform: scale(1.10);
-} */
-
 #check-announcement:checked~.announcement{
     display: none;
 }
@@ -34,7 +26,6 @@ img {
     color: white;
     position: relative;
     padding-right: 20px;
-    /* padding-left: 4px; */
 }
 
 .close-announcement{
@@ -46,7 +37,6 @@ img {
     border-radius: 20px;
     font-size: 1.8rem;
     font-weight: 600;
-
 }
 
 .tab{
@@ -62,7 +52,6 @@ img {
     text-align: center;
     width: 100vw;
 }
-
 
 .center-top{
     text-align: center;
@@ -115,12 +104,9 @@ img {
     margin-top: 40px;
 }
 
-
 @media (max-width: 300px){
     
     .tab2{
          display: none;
         }
-
-
 }

@@ -6,10 +6,8 @@
     overflow: hidden;
     position: relative;
     margin-top: 25px;
-    /* top: 50%; */
     left: 50%;
     transform: translate(-50%);
-    /* box-shadow: 6px 6px 10px #66666683; */
 }
 
 .navigation{
@@ -17,7 +15,6 @@
     bottom: 20px;
     left: 50%;
     transform: translate(-50%) ;
-    
 }
 
 .input-slide{
@@ -25,9 +22,6 @@
 }
 
 .bar{
-    /* width: 100px; */
-    /* height: 17px; */
-    /* width: 17px; */
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -37,7 +31,6 @@
     cursor: pointer;
     transition: .6s;
     margin: 10px;
-    
 }
 
 .bar:hover{
@@ -76,9 +69,7 @@
     margin-left: -75%;
 }
 
-
 .disclaimer-home{
-    /* text-align: left; */
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
@@ -89,22 +80,13 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    
 }
 
 .disclaimer-home-two{
-    /* position: relative; */
-    /* left: 10px; */
-    /* text-align: left; */
-    /* width: 33%; */
-    /* display:flex ; */
-    margin-bottom: 15px;
-    /* align-items: center; */
-    
+    margin-bottom: 15px;   
 }
 
 .disclaimer-home-two-link{
-    /* color: black; */
     text-decoration: underline black solid 1px;
 }
 
@@ -113,15 +95,11 @@
     left: 50%;
     transform: translate(-50%);
     margin-top: 15px;
-
 }
 
 .disclaimer-home-icon{
-    
-    /* margin-right: 20px; */
     position: absolute;
     padding-top: 8px;
-    /* left: 0px; */
 }
 
 .disclaimer-home-two-text{
@@ -134,35 +112,28 @@
     font-size: 2rem;
     font-weight: 500;
 }
+
 .home-text{
     font-size: 1.6rem;
-
 }
 
 .home-banners{
     width: 100%;
     height: auto;
     display: flex;
-    /* align-items:flex-end; */
     flex-wrap: nowrap;
     overflow: scroll;
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
 .home-banners-solo{
-    /* padding-right: 25px; */
     flex: 0 0 auto;
-    /* display:  block; */
-    /* align-items: unset; */
-    /* justify-content: space-evenly; */
     color: #ffffff;
-    /* background-color: red; */
 }
 
 .home-banners-img{
     position: relative;
-    /* left: 0%; */
-    /* width: 100%; */
     max-width: 280px;
 }
 

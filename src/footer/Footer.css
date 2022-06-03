@@ -11,8 +11,6 @@ li{
 }
 
 .footer-cima{
-    /* display: grid; */
-    /* grid-template-columns: 200px 200px 200px; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -29,7 +27,6 @@ li{
 
 .tres-div{
     width: 33%;
-    /* min-width: 24.99%; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -46,7 +43,6 @@ li{
 
 .tres{
     width: 33%;
-    /* min-width: 24.99%; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -96,11 +92,9 @@ li{
 }
 
 .titulo-tres{
-    /* font-weight: 500; */
     color: var(--cinza-ml);
     padding-bottom: 10px;
     transition: ease-in-out 0.2s;
-    /* width: fit-content; */
     text-align: center;
     cursor: pointer;
 }
@@ -108,12 +102,7 @@ li{
 .titulo-tres:hover{
     color: #3acc00;
     transform: scale(1.2);
-    /* padding: 10px; */
     font-weight: 700;
-    /* cursor: pointer; */
-    /* border: 1px solid var(--cinza-ml); */
-    /* background-color: #ffffff; */
-    /* border-radius: 20px; */
 }
 
 .redirect{
@@ -130,9 +119,7 @@ li{
 .borda-clicada{
     padding: 15px;
     background-color: #ffffff;
-    /* margin: 10px; */
     border-radius: 20px;
-    /* filter: drop-shadow(5px 5px 10px #6666667c); */
     border: 1px solid #66666666;
     width: 70%;
     max-width: 600px;
@@ -155,14 +142,13 @@ li{
     margin-bottom: 10px;
 }
 
-
 @media (max-width: 300px){
     
     .footer-cima{
          display: none;
         }
+
     .borda-clicada{
         margin-top: 20px;
         }
-
 }
