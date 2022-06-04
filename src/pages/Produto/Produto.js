@@ -23,7 +23,7 @@ function Produto() {
           </div>
             <div className='inicio-produto-two'>
 
-              <p className='sub-text'>© produto exclusivo da Loja Cliente Feliz.</p>
+              <p className='sub-text'><span className='bold'>© produto exclusivo</span> da Loja Cliente Feliz.</p>
 
               <div className='rate-stars'>
                 <img alt='star' src={star} width='14px'/>
@@ -31,7 +31,7 @@ function Produto() {
                 <img alt='star' src={star} width='14px'/>
                 <img alt='star' src={star} width='14px'/>
                 <img alt='star' src={star} width='14px'/>
-                <p className='sub-text'>(+500 Avaliações positivas.)</p>
+                <p className='sub-text'>&nbsp;(20 Avaliações.)</p>
               </div>
 
               <div className='product-title'>
@@ -45,7 +45,14 @@ function Produto() {
               <p className='price-max'>&nbsp;R$ 116,00</p>
               </div>
 
-              <p className='sub-text'>foto     foto     foto</p>
+              <p className='sub-text'>Cor: Marrom</p>
+              <div className='lateral'>
+                <div className='redondo marrom'>a</div>
+                <div className='redondo azul'>b</div>
+                <div className='redondo verde'>c</div>
+              </div>
+
+              
               <div className='produto-inicio-btn'>
                 <button className='btn-product'>COMPRAR AGORA</button>
               </div>

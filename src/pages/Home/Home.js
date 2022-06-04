@@ -56,8 +56,8 @@ function Home() {
             <img alt="logo cliente feliz" src={wallet} width='25px' className='disclaimer-home-icon'/>
             <div className='disclaimer-home-two-text'>
               <p className=' bold'>Pague com Cartão de Crédito, Boleto ou PIX.</p>
-              <p >Aqui você escolhe pagar no cartão de crédito parcelado em até 12 vezes, ou à vista no boleto ou PIX. Com o Mercado Pago você sempre está seguro!</p> 
-              <p className='disclaimer-home-two-link' >Estou tendo problemas com pagamentos.</p>
+              <p >Escolha parcelar em até 12 vezes, ou à vista no boleto ou PIX. Com o Mercado Pago você sempre está seguro!</p> 
+              <p className='disclaimer-home-two-link link-hover' >Estou tendo problemas com pagamentos.</p>
             </div>
           </div>
 
@@ -65,8 +65,8 @@ function Home() {
             <img alt="logo cliente feliz" src={fly} width='25px' className='disclaimer-home-icon'/>
             <div className='disclaimer-home-two-text'>
               <p className='bold'>Frete grátis com Rastreamento.</p>  
-              <p>Escolha a melhor opção de envio para você, e aproveite para rastrear sua compra em tempo real até recebê-la. Todos os seus pacotes estão sempre protegidos.</p>
-              <p className='disclaimer-home-two-link' >Rastreie o seu pedido aqui</p> 
+              <p>Escolha a melhor opção de envio e rastreie em tempo real até receber sua compra.</p>
+              <p className='disclaimer-home-two-link link-hover' >Rastreie o seu pedido aqui</p> 
             </div>
   
           </div>
@@ -75,8 +75,8 @@ function Home() {
             <img alt="logo cliente feliz" src={security} width='25px' className='disclaimer-home-icon'/>
             <div className='disclaimer-home-two-text'>
               <p className='bold'>Segurança, do Início ao Fim.</p>   
-              <p >Acompanhamos você até que você receba o produto que comprou. E se não receber o que esperava, devolveremos o seu dinheiro sem complicações.</p> 
-              <p className='disclaimer-home-two-link' >Nossas políticas de Trocas e Devoluções.</p>
+              <p >Acompanhamos você até que receba o seu produto. E se não receber o que esperava, devolveremos o seu dinheiro.</p> 
+              <p className='disclaimer-home-two-link link-hover' >Nossas políticas de Trocas e Devoluções.</p>
             </div>
 
           </div>
@@ -106,13 +106,11 @@ function Home() {
         </div>
         {/* FIM BANNERS */}  
 
-
-
-        INICIO VIDEO PLAYER  
+        {/* INICIO VIDEO PLAYER   */}
         {/* <span className='home-title'>Assista:</span>
         <div className='video' align='center'>
           <iframe loading="lazy"
-                  // className=video-youtube 
+                  className='video-youtube' 
                   align="center"
                   src="https://www.youtube-nocookie.com/embed/nYjVgclZ6ww?controls=0" 
                   title="Conheça a loja mais feliz do Brasil" 

@@ -100,7 +100,7 @@ li{
 }
 
 .titulo-tres:hover{
-    color: #3acc00;
+    color: var(--verde-feliz);
     transform: scale(1.2);
     font-weight: 700;
 }
@@ -113,7 +113,7 @@ li{
     transform: scale(1.2);
     font-size: 1.6rem;
     font-weight: 700;
-    color: #3acc00;
+    color: var(--verde-feliz);
 }
 
 .borda-clicada{

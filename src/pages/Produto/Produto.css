@@ -32,14 +32,13 @@
 .bold{
     font-weight: 700;
 }
-
 .bold-600{
     font-weight: 600;
 }
 
 .btn-product{
     color: white;
-    background: #3acc00;
+    background: var(--verde-feliz);
     border-radius: 10px;
     width: 100%;
     max-width: 500px;
@@ -55,13 +54,11 @@
     cursor: pointer;
     transition: ease-in-out .3s;
 }
-
 .produto-inicio-btn{
     display: flex;
     transform: scale(1.2);
     animation: pulse 2s infinite;
 }
-
 .btn-product:hover{
     align-items: center;
     /* transform: scale(1.08); */
@@ -71,17 +68,17 @@
     width: 110%;
     max-width: 520px;
 }
-
 .btn-description{
-    color: white;
-    background: #3acc00;
+    color: var(--verde-feliz);
+    background: white;
     border-radius: 10px;
-    width: 85%;
-    max-width: 400px;
+    width: 75%;
+    max-width: 360px;
     height: 50px;
     font-size: 1.6rem;
     font-weight: 600;
-    border: none;
+    border: 2px solid var(--verde-feliz);
+
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -100,18 +97,15 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 .disclaimer-two{
     display: flex;
     margin-bottom: 15px;
 }
-
 .disclaimer-icon{
     margin-right: 20px;
     position: relative;
     left: 0px;
 }
-
 .disclaimer-text{
     font-size: 1.4rem;
 }
@@ -143,13 +137,11 @@
 display: flex;
 align-items: baseline;
 }
-
 .price-min{
     font-size: 1.4rem;
     color: red;
     text-decoration: line-through;
 }
-
 .price-max{
     font-size: 2.8rem;
     font-weight: 600;
@@ -167,7 +159,6 @@ align-items: baseline;
     padding: 10px;
     border-radius: 5px;
 }
-
 .description-title{
     color: black;
     font-size: 1.9rem;
@@ -177,17 +168,14 @@ align-items: baseline;
     font-weight: 600;
     text-align: center;
 }
-
 .description-text{
     color: var(--cinza-ml);
     padding: 25px;
     font-size: 1.6rem;
 }
-
 .description-grey{
     background-color: var(--branco-apple);
 }
-
 .description-white{
     background-color: white;
 }
@@ -204,6 +192,30 @@ align-items: baseline;
     width: 85%;
     max-width: 420px;
 }
+
+.lateral{
+    display: flex;
+}
+
+.redondo{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    background-color: yellow;
+    border: 1px solid var(--cinza-ml);
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition:ease-in-out .3s;
+}
+.redondo:hover{
+    transform: scale(1.2);
+}
+.marrom{ background-color: brown;}
+.azul{background-color: blue;}
+.verde{background-color: green;}
+
 
 @keyframes pulse {
 	0% {
