@@ -110,6 +110,10 @@ img {
     margin-top: 40px;
 }
 
+.branco{
+    background-color: var(--branco-apple);
+}
+
 @media (max-width: 300px){
     
     .tab2{

@@ -28,17 +28,19 @@ function Header() {
           
         </div>
 
-        <div  className='tab header-logo' >
-          <a href='./' >
-            <img alt="logo cliente feliz" src={logo}  className='center-top-logo' />
-          </a>
-        </div>
-          
-        <div  className='tab2' >
-          <div className='center-top'>
-            <a className='tres-top' href='./contato'>Contato</a> 
-            <a className='tres-top' href='./rastreio'>Rastreio</a>
-            <a className='tres-top' href='./produto'>Oferta</a>
+        <div className='branco'>
+          <div  className='tab header-logo' >
+            <a href='./' >
+              <img alt="logo cliente feliz" src={logo}  className='center-top-logo' />
+            </a>
+          </div>
+            
+          <div  className='tab2' >
+            <div className='center-top'>
+              <a className='tres-top' href='./contato'>Contato</a> 
+              <a className='tres-top' href='./rastreio'>Rastreio</a>
+              <a className='tres-top' href='./produto'>Oferta</a>
+            </div>
           </div>
         </div>
 

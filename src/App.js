@@ -7,7 +7,7 @@ import Footer from './footer/Footer';
 // importando páginas
 import Home from './pages/Home/Home';
 import Produto from './pages/Produto/Produto';
-import Rastreio from './pages/institucional/rastreio';
+import Rastreio from './pages/institucional/Rastreio';
 import Contato from './pages/institucional/contato';
 import Email from './pages/institucional/e-mail';
 import Envio from './pages/institucional/envio';
